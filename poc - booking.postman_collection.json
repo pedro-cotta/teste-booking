@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "3afe820c-54b4-4dbd-b6d8-ed560957ecc8",
+		"name": "poc - booking",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17185058"
+	},
+	"item": [
+		{
+			"name": "Busca hoteis",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/hotel?cityId=2&checkIn=2024-07-15&checkout=2024-07-16&quantityPersons=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"hotel"
+					],
+					"query": [
+						{
+							"key": "cityId",
+							"value": "2"
+						},
+						{
+							"key": "checkIn",
+							"value": "2024-07-15"
+						},
+						{
+							"key": "checkout",
+							"value": "2024-07-16"
+						},
+						{
+							"key": "quantityPersons",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
